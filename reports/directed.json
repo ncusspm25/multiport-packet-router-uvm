@@ -1,0 +1,177 @@
+[
+  {
+    "case": 0,
+    "width": 1,
+    "accepted": 32,
+    "delivered": 32,
+    "aborted": 0
+  },
+  {
+    "case": 1,
+    "width": 1,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 2,
+    "width": 1,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 3,
+    "width": 1,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 4,
+    "width": 1,
+    "accepted": 16,
+    "delivered": 15,
+    "aborted": 1
+  },
+  {
+    "case": 0,
+    "width": 8,
+    "accepted": 32,
+    "delivered": 32,
+    "aborted": 0
+  },
+  {
+    "case": 1,
+    "width": 8,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 2,
+    "width": 8,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 3,
+    "width": 8,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 4,
+    "width": 8,
+    "accepted": 16,
+    "delivered": 15,
+    "aborted": 1
+  },
+  {
+    "case": 0,
+    "width": 16,
+    "accepted": 32,
+    "delivered": 32,
+    "aborted": 0
+  },
+  {
+    "case": 1,
+    "width": 16,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 2,
+    "width": 16,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 3,
+    "width": 16,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 4,
+    "width": 16,
+    "accepted": 16,
+    "delivered": 15,
+    "aborted": 1
+  },
+  {
+    "case": 0,
+    "width": 32,
+    "accepted": 32,
+    "delivered": 32,
+    "aborted": 0
+  },
+  {
+    "case": 1,
+    "width": 32,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 2,
+    "width": 32,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 3,
+    "width": 32,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 4,
+    "width": 32,
+    "accepted": 16,
+    "delivered": 15,
+    "aborted": 1
+  },
+  {
+    "case": 0,
+    "width": 64,
+    "accepted": 32,
+    "delivered": 32,
+    "aborted": 0
+  },
+  {
+    "case": 1,
+    "width": 64,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 2,
+    "width": 64,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 3,
+    "width": 64,
+    "accepted": 128,
+    "delivered": 128,
+    "aborted": 0
+  },
+  {
+    "case": 4,
+    "width": 64,
+    "accepted": 16,
+    "delivered": 15,
+    "aborted": 1
+  }
+]

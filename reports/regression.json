@@ -1,0 +1,704 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-11-17T18:58:22.660501+00:00",
+  "platform": "Linux",
+  "width": 32,
+  "toolchain": {
+    "verilator": {
+      "version": "5.054",
+      "repository": "https://github.com/verilator/verilator.git",
+      "tag": "v5.054",
+      "commit": "bbb60a403932a9f695cb6ff001ceb73de6ad9234"
+    },
+    "uvm": {
+      "version": "2020.3.2",
+      "url": "https://www.accellera.org/images/downloads/standards/uvm/1800.2-2020.3.2%20Release.gz",
+      "sha256": "4664ac015f23c72106dd785906aa874d70932ea63f74b85de1e32fa5339c15eb"
+    }
+  },
+  "positive_runs": [
+    {
+      "seed": 1,
+      "cycles": 132,
+      "accepted": 64,
+      "delivered": 64,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 35.7143,
+      "completed_scenarios": 1,
+      "dual_accept_cycles": 0,
+      "route_hits": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "contention_grants": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "output_stall_cycles": [
+        0,
+        0
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "bf63d4679cedc53da99391160fb8ed57ec5e3d970a195957578a2e19dda07789",
+      "python_oracle": "PASS",
+      "name": "single",
+      "scenario": "single",
+      "elapsed_seconds": 1.824,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=single",
+        "+SEED=1",
+        "+N_PACKETS=32",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/single"
+    },
+    {
+      "seed": 1,
+      "cycles": 100,
+      "accepted": 64,
+      "delivered": 64,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 27.381,
+      "completed_scenarios": 2,
+      "dual_accept_cycles": 32,
+      "route_hits": [
+        32,
+        0,
+        0,
+        32
+      ],
+      "contention_grants": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "output_stall_cycles": [
+        0,
+        0
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "5b8484daf7b0c8cbf5c8590b127361540e5410d59acc79c8ecdcd26861a883b5",
+      "python_oracle": "PASS",
+      "name": "simultaneous",
+      "scenario": "simultaneous",
+      "elapsed_seconds": 1.724,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=simultaneous",
+        "+SEED=1",
+        "+N_PACKETS=32",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/simultaneous"
+    },
+    {
+      "seed": 1,
+      "cycles": 131,
+      "accepted": 64,
+      "delivered": 64,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 52.381,
+      "completed_scenarios": 4,
+      "dual_accept_cycles": 1,
+      "route_hits": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "contention_grants": [
+        16,
+        15,
+        15,
+        15
+      ],
+      "output_stall_cycles": [
+        0,
+        0
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "af2f635b1397762a7e76544a226b4b88b53d6a1034a8b4aa92af7cfaef074f4a",
+      "python_oracle": "PASS",
+      "name": "contention",
+      "scenario": "contention",
+      "elapsed_seconds": 1.673,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=contention",
+        "+SEED=1",
+        "+N_PACKETS=32",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/contention"
+    },
+    {
+      "seed": 1,
+      "cycles": 135,
+      "accepted": 64,
+      "delivered": 64,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 44.0476,
+      "completed_scenarios": 8,
+      "dual_accept_cycles": 32,
+      "route_hits": [
+        32,
+        0,
+        0,
+        32
+      ],
+      "contention_grants": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "output_stall_cycles": [
+        39,
+        39
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "08013793ba509ec6c3fce577638639e32225fda8690d2704941039500c4bd322",
+      "python_oracle": "PASS",
+      "name": "backpressure",
+      "scenario": "backpressure",
+      "elapsed_seconds": 1.674,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=backpressure",
+        "+SEED=1",
+        "+N_PACKETS=32",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/backpressure"
+    },
+    {
+      "seed": 1,
+      "cycles": 142,
+      "accepted": 64,
+      "delivered": 63,
+      "reset_aborted": 1,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 60.7143,
+      "completed_scenarios": 16,
+      "dual_accept_cycles": 0,
+      "route_hits": [
+        32,
+        0,
+        32,
+        0
+      ],
+      "contention_grants": [
+        32,
+        30,
+        0,
+        0
+      ],
+      "output_stall_cycles": [
+        8,
+        0
+      ],
+      "reset_busy_events": 1,
+      "trace_sha256": "ef5ed23361c5f96979bfbb08ea791fbb28421d531026e56d8dcdc4c1d16d617d",
+      "python_oracle": "PASS",
+      "name": "reset",
+      "scenario": "reset",
+      "elapsed_seconds": 1.725,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=reset",
+        "+SEED=1",
+        "+N_PACKETS=32",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/reset"
+    },
+    {
+      "seed": 1,
+      "cycles": 1767,
+      "accepted": 1024,
+      "delivered": 1024,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 69.0476,
+      "completed_scenarios": 32,
+      "dual_accept_cycles": 114,
+      "route_hits": [
+        249,
+        263,
+        266,
+        246
+      ],
+      "contention_grants": [
+        42,
+        41,
+        35,
+        42
+      ],
+      "output_stall_cycles": [
+        384,
+        328
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "2441b7fa3d74be3268500e136f90f111d541453eac5c4cb315793cb39311e143",
+      "python_oracle": "PASS",
+      "name": "random-1",
+      "scenario": "random",
+      "elapsed_seconds": 17.812,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=random",
+        "+SEED=1",
+        "+N_PACKETS=512",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/random-1"
+    },
+    {
+      "seed": 17,
+      "cycles": 1814,
+      "accepted": 1024,
+      "delivered": 1024,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 69.0476,
+      "completed_scenarios": 32,
+      "dual_accept_cycles": 101,
+      "route_hits": [
+        259,
+        253,
+        250,
+        262
+      ],
+      "contention_grants": [
+        43,
+        34,
+        41,
+        43
+      ],
+      "output_stall_cycles": [
+        373,
+        390
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "b7bcb05a0bbb87bf6bf172e1bca8684fb9d06ead29ad8d498cbbf0798537a234",
+      "python_oracle": "PASS",
+      "name": "random-17",
+      "scenario": "random",
+      "elapsed_seconds": 17.59,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=random",
+        "+SEED=17",
+        "+N_PACKETS=512",
+        "+verilator+seed+17",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/random-17"
+    },
+    {
+      "seed": 123,
+      "cycles": 1800,
+      "accepted": 1024,
+      "delivered": 1024,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 69.0476,
+      "completed_scenarios": 32,
+      "dual_accept_cycles": 87,
+      "route_hits": [
+        261,
+        251,
+        240,
+        272
+      ],
+      "contention_grants": [
+        42,
+        45,
+        47,
+        41
+      ],
+      "output_stall_cycles": [
+        424,
+        289
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "51502fe8e41f3d2a1e27a3969c8a64116f4b496bef3669c74a38adc90cbe4af8",
+      "python_oracle": "PASS",
+      "name": "random-123",
+      "scenario": "random",
+      "elapsed_seconds": 17.796,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=random",
+        "+SEED=123",
+        "+N_PACKETS=512",
+        "+verilator+seed+123",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/random-123"
+    },
+    {
+      "seed": 1,
+      "cycles": 16679,
+      "accepted": 10000,
+      "delivered": 10000,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 69.0476,
+      "completed_scenarios": 64,
+      "dual_accept_cycles": 974,
+      "route_hits": [
+        2443,
+        2557,
+        2497,
+        2503
+      ],
+      "contention_grants": [
+        402,
+        384,
+        386,
+        420
+      ],
+      "output_stall_cycles": [
+        3428,
+        3310
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "f3ffc4764c29020549e56ba14fe3f413af719aa801392c7237f02d2648aed371",
+      "python_oracle": "PASS",
+      "name": "stress",
+      "scenario": "stress",
+      "elapsed_seconds": 162.575,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=stress",
+        "+SEED=1",
+        "+N_PACKETS=5000",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/stress"
+    },
+    {
+      "seed": 1,
+      "cycles": 17539,
+      "accepted": 10384,
+      "delivered": 10383,
+      "reset_aborted": 1,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 100.0,
+      "completed_scenarios": 127,
+      "dual_accept_cycles": 1078,
+      "route_hits": [
+        2584,
+        2608,
+        2574,
+        2618
+      ],
+      "contention_grants": [
+        438,
+        434,
+        409,
+        434
+      ],
+      "output_stall_cycles": [
+        3581,
+        3471
+      ],
+      "reset_busy_events": 1,
+      "trace_sha256": "4e43228d72877b469a7128121b731810b329e592ebf4a92610668f22acc9d1ca",
+      "python_oracle": "PASS",
+      "name": "all",
+      "scenario": "all",
+      "elapsed_seconds": 166.829,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=all",
+        "+SEED=1",
+        "+N_PACKETS=32",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/all"
+    },
+    {
+      "seed": 17,
+      "cycles": 1814,
+      "accepted": 1024,
+      "delivered": 1024,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 69.0476,
+      "completed_scenarios": 32,
+      "dual_accept_cycles": 101,
+      "route_hits": [
+        259,
+        253,
+        250,
+        262
+      ],
+      "contention_grants": [
+        43,
+        34,
+        41,
+        43
+      ],
+      "output_stall_cycles": [
+        373,
+        390
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "b7bcb05a0bbb87bf6bf172e1bca8684fb9d06ead29ad8d498cbbf0798537a234",
+      "python_oracle": "PASS",
+      "name": "random-17-replay",
+      "scenario": "random",
+      "elapsed_seconds": 17.902,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=random",
+        "+SEED=17",
+        "+N_PACKETS=512",
+        "+verilator+seed+17",
+        "+UVM_NO_RELNOTES"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/random-17-replay"
+    },
+    {
+      "seed": 1,
+      "cycles": 100,
+      "accepted": 32,
+      "delivered": 32,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 27.381,
+      "completed_scenarios": 1,
+      "dual_accept_cycles": 0,
+      "route_hits": [
+        16,
+        16,
+        0,
+        0
+      ],
+      "contention_grants": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "output_stall_cycles": [
+        0,
+        0
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "6e3893322866b0cc40a1c2658be6060c66b625aa01d8589b633146e4142f9d15",
+      "python_oracle": "PASS",
+      "name": "passive-source1",
+      "scenario": "single",
+      "elapsed_seconds": 1.271,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=single",
+        "+SEED=1",
+        "+N_PACKETS=32",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES",
+        "+PASSIVE_SOURCE=1"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/passive-source1"
+    },
+    {
+      "seed": 1,
+      "cycles": 132,
+      "accepted": 64,
+      "delivered": 64,
+      "reset_aborted": 0,
+      "uvm_errors": 0,
+      "uvm_fatals": 0,
+      "native_functional_coverage": 35.7143,
+      "completed_scenarios": 1,
+      "dual_accept_cycles": 0,
+      "route_hits": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "contention_grants": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "output_stall_cycles": [
+        0,
+        0
+      ],
+      "reset_busy_events": 0,
+      "trace_sha256": "bf63d4679cedc53da99391160fb8ed57ec5e3d970a195957578a2e19dda07789",
+      "python_oracle": "PASS",
+      "name": "mutation-wrapper-clean",
+      "scenario": "single",
+      "elapsed_seconds": 1.925,
+      "command": [
+        "/root/.cache/multiport-router-build/mutation-32/Vuvm_top",
+        "+CASE=single",
+        "+SEED=1",
+        "+N_PACKETS=32",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES",
+        "+MUTATION=0"
+      ],
+      "run_dir": "/root/.cache/multiport-router-build/regression/mutation-wrapper-clean"
+    }
+  ],
+  "negative_runs": [
+    {
+      "name": "drop",
+      "detected": true,
+      "expected_marker": "SB_LOSS",
+      "returncode": 0,
+      "elapsed_seconds": 1.372,
+      "command": [
+        "/root/.cache/multiport-router-build/mutation-32/Vuvm_top",
+        "+CASE=single",
+        "+SEED=1",
+        "+N_PACKETS=16",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES",
+        "+MUTATION=1"
+      ],
+      "python_oracle": "Accepted input packets missing at end of trace"
+    },
+    {
+      "name": "duplicate",
+      "detected": true,
+      "expected_marker": "SB_DUPLICATE",
+      "returncode": 0,
+      "elapsed_seconds": 1.372,
+      "command": [
+        "/root/.cache/multiport-router-build/mutation-32/Vuvm_top",
+        "+CASE=single",
+        "+SEED=1",
+        "+N_PACKETS=16",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES",
+        "+MUTATION=2"
+      ],
+      "python_oracle": "Unexpected/duplicated output at cycle 7"
+    },
+    {
+      "name": "corrupt",
+      "detected": true,
+      "expected_marker": "SB_CORRUPTION_OR_ORDER",
+      "returncode": 0,
+      "elapsed_seconds": 1.271,
+      "command": [
+        "/root/.cache/multiport-router-build/mutation-32/Vuvm_top",
+        "+CASE=single",
+        "+SEED=1",
+        "+N_PACKETS=16",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES",
+        "+MUTATION=3"
+      ],
+      "python_oracle": "Data/routing/order mismatch at cycle 7: 1 != 0"
+    },
+    {
+      "name": "route",
+      "detected": true,
+      "expected_marker": "SB_ROUTING",
+      "returncode": 0,
+      "elapsed_seconds": 1.371,
+      "command": [
+        "/root/.cache/multiport-router-build/mutation-32/Vuvm_top",
+        "+CASE=single",
+        "+SEED=1",
+        "+N_PACKETS=16",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES",
+        "+MUTATION=4"
+      ],
+      "python_oracle": "Unexpected/duplicated output at cycle 7"
+    },
+    {
+      "name": "priority",
+      "detected": true,
+      "expected_marker": "SB_ARBITRATION",
+      "returncode": 0,
+      "elapsed_seconds": 1.421,
+      "command": [
+        "/root/.cache/multiport-router-build/mutation-32/Vuvm_top",
+        "+CASE=contention",
+        "+SEED=1",
+        "+N_PACKETS=16",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES",
+        "+MUTATION=5"
+      ]
+    },
+    {
+      "name": "unstable",
+      "detected": true,
+      "expected_marker": "SVA_OUTPUT_STABLE",
+      "returncode": 1,
+      "elapsed_seconds": 0.567,
+      "command": [
+        "/root/.cache/multiport-router-build/mutation-32/Vuvm_top",
+        "+CASE=backpressure",
+        "+SEED=1",
+        "+N_PACKETS=16",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES",
+        "+MUTATION=6"
+      ]
+    },
+    {
+      "name": "protocol_negative",
+      "detected": true,
+      "expected_marker": "SVA_INPUT_STABLE",
+      "returncode": 1,
+      "elapsed_seconds": 0.517,
+      "command": [
+        "/root/.cache/multiport-router-build/uvm-32/Vuvm_top",
+        "+CASE=protocol_negative",
+        "+SEED=1",
+        "+N_PACKETS=16",
+        "+verilator+seed+1",
+        "+UVM_NO_RELNOTES"
+      ]
+    }
+  ],
+  "reproducibility": {
+    "seed": 17,
+    "trace_sha256": "b7bcb05a0bbb87bf6bf172e1bca8684fb9d06ead29ad8d498cbbf0798537a234",
+    "identical": true
+  }
+}

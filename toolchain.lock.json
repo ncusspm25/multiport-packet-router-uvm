@@ -1,0 +1,13 @@
+{
+  "verilator": {
+    "version": "5.054",
+    "repository": "https://github.com/verilator/verilator.git",
+    "tag": "v5.054",
+    "commit": "bbb60a403932a9f695cb6ff001ceb73de6ad9234"
+  },
+  "uvm": {
+    "version": "2020.3.2",
+    "url": "https://www.accellera.org/images/downloads/standards/uvm/1800.2-2020.3.2%20Release.gz",
+    "sha256": "4664ac015f23c72106dd785906aa874d70932ea63f74b85de1e32fa5339c15eb"
+  }
+}

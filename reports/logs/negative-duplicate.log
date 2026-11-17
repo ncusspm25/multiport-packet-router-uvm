@@ -1,0 +1,173 @@
+UVM_INFO @ 0: reporter [RNTST] Running test router_test...
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 65000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=7 output=1 data=00000000
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 75000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=8 output=0 data=00000000
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 85000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=9 output=1 data=ffffffff
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 95000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=10 output=0 data=0b731da2
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 105000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=11 output=1 data=16b0a9c8
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 115000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=12 output=0 data=6d834d5c
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 125000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=13 output=1 data=8e243fa2
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 135000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=14 output=0 data=86ec4ee1
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 145000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=15 output=1 data=0ee24f77
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 155000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=16 output=0 data=c4735dba
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 165000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=17 output=1 data=41dfc969
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 175000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=18 output=0 data=4c955b32
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 185000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=19 output=1 data=c22677a7
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 195000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=20 output=0 data=57b4dd75
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 205000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=21 output=1 data=0db807f2
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 215000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=22 output=0 data=c26976b2
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 225000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=23 output=1 data=fdaecf3b
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 235000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=24 output=0 data=00000000
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 245000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=25 output=1 data=ffffffff
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 255000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=26 output=0 data=2a301519
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 265000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=27 output=1 data=53ca836e
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 275000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=28 output=0 data=da234f13
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 285000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=29 output=1 data=cd5abbb8
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 295000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=30 output=0 data=fa9e9651
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 305000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=31 output=1 data=8370e089
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 315000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=32 output=0 data=47c73b82
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 325000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=33 output=1 data=f6a4676a
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 335000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=34 output=0 data=ee8841ad
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 345000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=35 output=1 data=4579de26
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 355000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=36 output=0 data=7aaed10a
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 365000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=37 output=1 data=8e5583a8
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 375000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=38 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 385000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=39 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 385000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=39 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 395000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=40 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 395000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=40 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 405000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=41 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 405000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=41 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 415000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=42 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 415000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=42 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 425000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=43 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 425000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=43 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 435000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=44 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 435000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=44 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 445000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=45 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 445000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=45 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 455000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=46 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 455000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=46 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 465000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=47 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 465000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=47 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 475000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=48 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 475000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=48 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 485000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=49 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 485000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=49 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 495000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=50 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 495000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=50 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 505000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=51 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 505000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=51 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 515000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=52 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 515000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=52 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 525000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=53 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 525000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=53 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 535000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=54 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 535000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=54 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 545000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=55 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 545000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=55 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 555000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=56 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 555000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=56 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 565000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=57 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 565000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=57 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 575000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=58 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 575000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=58 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 585000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=59 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 585000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=59 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 595000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=60 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 595000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=60 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 605000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=61 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 605000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=61 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 615000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=62 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 615000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=62 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 625000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=63 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 625000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=63 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 635000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=64 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 635000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=64 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 645000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=65 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 645000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=65 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 655000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=66 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 655000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=66 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 665000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=67 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 665000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=67 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 675000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=68 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 675000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=68 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 685000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=69 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 685000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=69 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 695000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=70 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 695000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=70 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 705000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=71 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 705000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=71 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 715000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=72 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 715000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=72 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 725000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=73 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 725000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=73 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 735000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=74 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 735000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=74 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 745000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=75 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 745000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=75 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 755000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=76 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 755000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=76 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 765000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=77 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 765000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=77 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 775000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=78 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 775000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=78 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 785000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=79 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 785000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=79 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 795000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=80 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 795000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=80 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 805000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=81 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 805000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=81 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 815000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=82 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 815000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=82 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 825000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=83 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 825000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=83 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 835000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=84 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 835000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=84 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 845000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=85 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 845000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=85 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 855000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=86 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 855000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=86 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 865000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=87 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 865000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=87 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 875000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=88 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 875000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=88 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 885000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=89 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 885000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=89 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 895000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=90 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 895000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=90 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 905000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=91 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 905000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=91 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 915000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=92 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 915000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=92 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 925000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=93 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 925000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=93 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 935000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=94 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 935000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=94 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 945000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=95 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 945000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=95 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 955000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=96 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 955000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=96 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 965000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=97 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 965000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=97 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 975000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=98 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 975000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=98 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 985000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=99 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 985000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=99 output=1 data=752a01af
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 995000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=100 output=0 data=a57812a4
+UVM_ERROR tb/uvm/router_env_test.svh(49) @ 995000: uvm_test_top.env.scoreboard [SB_DUPLICATE] cycle=100 output=1 data=752a01af
+UVM_INFO /root/.cache/multiport-router-tools/1800.2-2020.3.2/src/base/uvm_report_server.svh(1009) @ 1000000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    1
+UVM_WARNING :    0
+UVM_ERROR :  156
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SB_DUPLICATE]   156
+
+- /root/.cache/multiport-router-tools/1800.2-2020.3.2/src/base/uvm_test_runner.svh:297: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.054 2026-11-01
+- Verilator: $finish at 1us; walltime 0.931 s; speed 1.074 us/s
+- Verilator: cpu 0.608 s on 1 threads; allocated 54 MB

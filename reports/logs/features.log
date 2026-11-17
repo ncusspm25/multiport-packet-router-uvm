@@ -1,0 +1,5 @@
+FEATURE_PASS randomize=64 virtual_interface=64 native_coverage=100.0
+- tb/smoke/features.sv:68: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.054 2026-11-01
+- Verilator: $finish at 645ns; walltime 0.375 s; speed 1.718 us/s
+- Verilator: cpu 0.055 s on 1 threads; allocated 4 MB

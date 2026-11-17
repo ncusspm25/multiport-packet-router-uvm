@@ -1,0 +1,107 @@
+{
+  "native_functional_bins": [
+    {
+      "bin": "route_cp.i0_o0",
+      "hits": 6199
+    },
+    {
+      "bin": "route_cp.i0_o1",
+      "hits": 6233
+    },
+    {
+      "bin": "route_cp.i1_o0",
+      "hits": 6141
+    },
+    {
+      "bin": "route_cp.i1_o1",
+      "hits": 6259
+    },
+    {
+      "bin": "contention_cp.o0_i0",
+      "hits": 1058
+    },
+    {
+      "bin": "contention_cp.o0_i1",
+      "hits": 1017
+    },
+    {
+      "bin": "contention_cp.o1_i0",
+      "hits": 974
+    },
+    {
+      "bin": "contention_cp.o1_i1",
+      "hits": 1038
+    },
+    {
+      "bin": "stall_cp.output0",
+      "hits": 8610
+    },
+    {
+      "bin": "stall_cp.output1",
+      "hits": 8217
+    },
+    {
+      "bin": "reset_cp.pending_traffic",
+      "hits": 2
+    },
+    {
+      "bin": "data_cp.zero",
+      "hits": 35
+    },
+    {
+      "bin": "data_cp.ones",
+      "hits": 35
+    },
+    {
+      "bin": "data_cp.mixed",
+      "hits": 24762
+    },
+    {
+      "bin": "scenario_cp.single",
+      "hits": 3
+    },
+    {
+      "bin": "scenario_cp.simultaneous",
+      "hits": 2
+    },
+    {
+      "bin": "scenario_cp.contention",
+      "hits": 2
+    },
+    {
+      "bin": "scenario_cp.backpressure",
+      "hits": 2
+    },
+    {
+      "bin": "scenario_cp.reset_traffic",
+      "hits": 2
+    },
+    {
+      "bin": "scenario_cp.random_traffic",
+      "hits": 5
+    },
+    {
+      "bin": "scenario_cp.stress",
+      "hits": 2
+    }
+  ],
+  "functional_covered": 21,
+  "functional_total": 21,
+  "rtl_counters": {
+    "branch": {
+      "covered": 10,
+      "total": 10,
+      "percent": 100.0
+    },
+    "line": {
+      "covered": 7,
+      "total": 7,
+      "percent": 100.0
+    },
+    "toggle": {
+      "covered": 292,
+      "total": 292,
+      "percent": 100.0
+    }
+  }
+}
