@@ -7,6 +7,8 @@ A 2-input, 2-output SystemVerilog packet router with a reusable Accellera UVM
 independent checking, functional coverage, assertions and deliberately faulty RTL
 for ASIC/DV interview preparation.
 
+All 25 directed RTL runs and 13 positive UVM runs passed. The tests hit all 21 functional coverage bins and detected all six injected RTL defects. [Verification report](reports/verification.md) · [CI run](https://github.com/ncusspm25/multiport-packet-router-uvm/actions/runs/44156314065)
+
 ## Reproduce from a clean checkout
 
 Use Linux or Ubuntu 24.04 on WSL2. Run the following inside the Linux shell.

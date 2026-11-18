@@ -3,8 +3,9 @@
 [English](README.md)
 
 此專案以 SystemVerilog 實作 2 輸入、2 輸出的封包路由器，搭配可重用的 Accellera
-UVM 2020.3.2 testbench。內容涵蓋 ready/valid、round-robin 仲裁、獨立預期結果檢查、
-functional coverage、SVA 與刻意注入的 RTL 缺陷，供 ASIC/DV 面試準備。
+UVM 2020.3.2 testbench。路由器使用 ready/valid 握手。兩個輸入同時送往同一個輸出時，該輸出以 round-robin 仲裁。驗證環境依輸入握手獨立推算預期封包，用 SVA 檢查協定，並以 functional coverage 記錄測過的情境。六種刻意植入的 RTL 缺陷用來確認檢查能抓到錯誤，供 ASIC/DV 面試練習。
+
+25 組 RTL 定向測試和 13 組 UVM 正向測試通過。21 個功能覆蓋 bin 全部命中，六個 RTL 缺陷也都觸發了預期檢查。[驗證報告](reports/verification.md) · [CI 執行紀錄](https://github.com/ncusspm25/multiport-packet-router-uvm/actions/runs/44156314065)
 
 ## 從乾淨 checkout 重現
 
