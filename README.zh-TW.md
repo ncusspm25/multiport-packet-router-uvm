@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+[SystemVerilog RTL](rtl/packet_router.sv) · [互動 Coverage 報告](https://ncusspm25.github.io/multiport-packet-router-uvm/) · [UVM 流程動畫](https://ncusspm25.github.io/multiport-packet-router-uvm/uvm.html)
+
 此專案以 SystemVerilog 實作 2 輸入、2 輸出的封包路由器，搭配可重用的 Accellera
 UVM 2020.3.2 testbench。路由器使用 ready/valid 握手。兩個輸入同時送往同一個輸出時，該輸出以 round-robin 仲裁。驗證環境依輸入握手獨立推算預期封包，用 SVA 檢查協定，並以 functional coverage 記錄測過的情境。六種刻意植入的 RTL 缺陷用來確認檢查能抓到錯誤，供 ASIC/DV 面試練習。
 

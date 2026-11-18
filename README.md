@@ -2,6 +2,8 @@
 
 [繁體中文](README.zh-TW.md)
 
+[SystemVerilog RTL](rtl/packet_router.sv) · [Coverage explorer](https://ncusspm25.github.io/multiport-packet-router-uvm/) · [Interactive UVM flow](https://ncusspm25.github.io/multiport-packet-router-uvm/uvm.html)
+
 A 2-input, 2-output SystemVerilog packet router with a reusable Accellera UVM
 2020.3.2 testbench. The project demonstrates ready/valid design, fair arbitration,
 independent checking, functional coverage, assertions and deliberately faulty RTL

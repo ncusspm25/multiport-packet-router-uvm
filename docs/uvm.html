@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UVM flow | Packet Router</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&amp;family=Space+Grotesk:wght@500;700&amp;display=swap">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="explorer.css">
+  <script defer src="uvm.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="shell">
+    <a class="brand" href="https://github.com/ncusspm25/multiport-packet-router-uvm">PACKET ROUTER / 2×2</a>
+    <nav aria-label="Project views">
+      <a href="./">Coverage</a>
+      <a href="uvm.html" aria-current="page">UVM flow</a>
+      <a href="https://github.com/ncusspm25/multiport-packet-router-uvm/blob/c941632fdfbdf4d50c21a4e1c13458451f4f6d18/rtl/packet_router.sv">RTL source</a>
+    </nav>
+  </div></header>
+  <main class="shell">
+    <div class="intro">
+      <p class="eyebrow example">Worked example · one packet</p>
+      <h1>UVM flow</h1>
+      <p class="lede">Follow <code>0xA5</code> from input 0 to output 1. The storyboard illustrates the testbench wiring and scoreboard checks for one successful transfer.</p>
+    </div>
+    <noscript><p>Enable JavaScript for the step controls, or use the source links below to read how the scoreboard works.</p></noscript>
+    <section class="workspace" aria-label="Packet verification demo">
+      <div class="panel">
+        <ol class="steps" aria-label="Verification steps">
+          <li><button type="button" data-step="0" aria-current="step"><span class="step-n">01</span>Drive</button></li>
+          <li><button type="button" data-step="1"><span class="step-n">02</span>Predict</button></li>
+          <li><button type="button" data-step="2"><span class="step-n">03</span>Observe</button></li>
+          <li><button type="button" data-step="3"><span class="step-n">04</span>Compare</button></li>
+        </ol>
+        <figure class="flow-figure">
+          <svg viewBox="0 0 600 258" role="img" aria-labelledby="flow-title flow-desc">
+            <title id="flow-title">UVM data flow</title>
+            <desc id="flow-desc">The driver feeds the RTL. Input and output monitors sample handshakes and send observations to the scoreboard. Expected packets come from input monitor observations.</desc>
+            <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8Z" fill="context-stroke"/></marker></defs>
+            <path class="track live" data-edge="0" d="M179 48H226" marker-end="url(#arrow)"/>
+            <path class="track" data-edge="1" d="M261 72V136H180" marker-end="url(#arrow)"/>
+            <path class="track" data-edge="2" d="M339 72V136H420" marker-end="url(#arrow)"/>
+            <path class="track" data-edge="3" d="M102 161V210H217" marker-end="url(#arrow)"/>
+            <path class="track" data-edge="4" d="M498 161V210H383" marker-end="url(#arrow)"/>
+            <g class="node live" data-node="driver"><rect x="24" y="24" width="155" height="48" rx="8"/><text x="101" y="54" text-anchor="middle">Driver</text></g>
+            <g class="node live" data-node="dut"><rect x="227" y="24" width="146" height="48" rx="8"/><text x="300" y="54" text-anchor="middle">Router RTL</text></g>
+            <g class="node" data-node="in"><rect x="24" y="112" width="155" height="48" rx="8"/><text x="101" y="142" text-anchor="middle">In monitor</text></g>
+            <g class="node" data-node="out"><rect x="421" y="112" width="155" height="48" rx="8"/><text x="499" y="142" text-anchor="middle">Out monitor</text></g>
+            <g class="node" data-node="score"><rect x="218" y="186" width="165" height="48" rx="8"/><text x="300" y="215" text-anchor="middle">Scoreboard</text></g>
+            <circle id="packet" class="packet" cx="0" cy="0" r="6" transform="translate(218 48)"/>
+          </svg>
+        </figure>
+        <div class="controls">
+          <button id="advance" class="primary" type="button" disabled>Next step</button>
+          <button id="play" type="button" disabled>Play demo</button>
+          <button id="reset" type="button" disabled>Reset</button>
+        </div>
+      </div>
+      <aside class="panel aside" aria-live="polite" aria-atomic="true">
+        <p class="eyebrow example" id="phase">Step 1 of 4</p>
+        <h2 id="step-title">Drive the input</h2>
+        <p id="describe" class="step-description">The sequencer hands the driver a packet. On the falling edge the driver presents data, destination and valid, then holds them until acceptance.</p>
+        <dl class="details">
+          <div><dt>Source → destination</dt><dd>IN 0 → OUT 1</dd></div>
+          <div><dt>Expected queue for OUT 1</dt><dd id="queue">empty</dd></div>
+          <div><dt>Output sample</dt><dd id="actual">—</dd></div>
+        </dl>
+      </aside>
+    </section>
+    <footer class="foot">
+      <a href="https://github.com/ncusspm25/multiport-packet-router-uvm/blob/c941632fdfbdf4d50c21a4e1c13458451f4f6d18/tb/uvm/router_agents.svh">Agents and monitors</a>
+      <a href="https://github.com/ncusspm25/multiport-packet-router-uvm/blob/c941632fdfbdf4d50c21a4e1c13458451f4f6d18/tb/uvm/router_env_test.svh">Scoreboard</a>
+      <a href="https://github.com/ncusspm25/multiport-packet-router-uvm/blob/c941632fdfbdf4d50c21a4e1c13458451f4f6d18/tb/uvm/router_model.svh">Reference model and covergroup</a>
+    </footer>
+  </main>
+</body>
+</html>

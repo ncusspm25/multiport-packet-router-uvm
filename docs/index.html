@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coverage | Packet Router</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&amp;family=Space+Grotesk:wght@500;700&amp;display=swap">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="explorer.css">
+  <script defer src="coverage.js"></script>
+</head>
+<body>
+  <header class="site-header"><div class="shell">
+    <a class="brand" href="https://github.com/ncusspm25/multiport-packet-router-uvm">PACKET ROUTER / 2×2</a>
+    <nav aria-label="Project views">
+      <a href="./" aria-current="page">Coverage</a>
+      <a href="uvm.html">UVM flow</a>
+      <a href="https://github.com/ncusspm25/multiport-packet-router-uvm/blob/c941632fdfbdf4d50c21a4e1c13458451f4f6d18/rtl/packet_router.sv">RTL source</a>
+    </nav>
+  </div></header>
+  <main class="shell">
+    <div class="intro coverage-intro">
+      <div>
+        <p class="eyebrow">Verilator 5.054 · UVM 2020.3.2</p>
+        <h1>Coverage</h1>
+        <p class="lede">Explore native functional bins from the merged regression and the instrumented counters for <code>packet_router.sv</code>.</p>
+      </div>
+      <div class="coverage-total"><p class="metric-label">Functional bins hit</p><strong class="metric" id="total">—</strong></div>
+    </div>
+    <section class="workspace" aria-label="Coverage explorer">
+      <div class="panel">
+        <div class="row">
+          <h2>Functional bins</h2>
+          <label for="group">Show <select id="group" disabled>
+            <option value="all">All bins</option>
+            <option value="route_cp">Routes</option>
+            <option value="contention_cp">Contention grants</option>
+            <option value="stall_cp">Output stalls</option>
+            <option value="reset_cp">Reset in traffic</option>
+            <option value="data_cp">Payload patterns</option>
+            <option value="scenario_cp">Scenarios</option>
+          </select></label>
+        </div>
+        <p id="status" class="note muted" role="status">Loading the recorded coverage report…</p>
+        <noscript><p>Enable JavaScript to filter bins or open the coverage report below.</p></noscript>
+        <table id="bins" hidden>
+          <caption>Log-scale bars · exact hit counts</caption>
+          <thead><tr><th scope="col">Bin</th><th scope="col">Relative hits</th><th scope="col" class="num">Hits</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <aside class="panel aside">
+        <h2>RTL counters</h2>
+        <table id="counters">
+          <thead><tr><th scope="col">Type</th><th scope="col" class="num">Hit / total</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <p class="muted note">The functional and RTL counters measure what these simulations exercised. Formal proof is outside the scope of this run.</p>
+      </aside>
+    </section>
+    <footer class="foot">
+      <a href="https://github.com/ncusspm25/multiport-packet-router-uvm/blob/c941632fdfbdf4d50c21a4e1c13458451f4f6d18/reports/coverage.md">Coverage report</a>
+      <a href="https://github.com/ncusspm25/multiport-packet-router-uvm/blob/c941632fdfbdf4d50c21a4e1c13458451f4f6d18/reports/coverage.json">Source JSON</a>
+      <a href="https://github.com/ncusspm25/multiport-packet-router-uvm/actions/runs/44156314065">Clean-checkout CI run</a>
+    </footer>
+  </main>
+</body>
+</html>
